@@ -24,6 +24,6 @@ public class IndexController {
         model.addAttribute("user",user);
         model.addAttribute("all",all);
 
-        return "index";
+        return "home/index";
     }
 }
